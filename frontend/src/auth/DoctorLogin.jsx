@@ -8,8 +8,8 @@ import {
 } from "lucide-react";
 
 const DoctorLogin = () => {
-  const [identifier, setIdentifier] = useState("");
-  const [password, setPassword] = useState("");
+  const [identifier, setIdentifier] = useState("demo@doctor.com");
+  const [password, setPassword] = useState("doctor123");
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e) => {

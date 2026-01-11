@@ -8,9 +8,12 @@ import {
 } from "lucide-react";
 
 const AdminLogin = () => {
-  const [identifier, setIdentifier] = useState("");
-  const [password, setPassword] = useState("");
+  const [identifier, setIdentifier] = useState("admin@test.com");
+  const [password, setPassword] = useState("admin123");
   const [loading, setLoading] = useState(false);
+
+  // const [email,setEmail] = useState("admin@test.com");
+  // const [password,setPassword] 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
